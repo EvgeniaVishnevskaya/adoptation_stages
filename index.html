@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стадии принятия тревожной ситуации</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="content is-index">
+        <h1>Стадии принятия<br />тревожной ситуации</h1>
+        <h2>
+            <a href="https://orgdev.ru/%D0%BF%D1%8F%D1%82%D1%8C-%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%B9-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8-%D0%BA%D1%8E%D0%B1%D0%BB%D0%B5%D1%80-%D1%80%D0%BE%D1%81%D1%81-a23512a83e4a" target="_blank">Стадии принятия по Кюблер-Росс</a>
+        </h2>
+        <a class="btn" href="pages/warmup.html">Начать</a>
+    </div>
+    <script>
+        // Документация: https://learn.javascript.ru/localstorage
+        // https://developer.mozilla.org/ru/docs/Web/API/Window/localStorage
+        // кол-во выполненых упражнений
+        localStorage.setItem('exCount', 1);
+        // кол-во выполненых сетов
+        localStorage.setItem('setCount', 1);
+        // номер текущего сета
+        localStorage.setItem('setExercise', 0);
+        // счетчики выполненых упражнений в сете
+        localStorage.setItem('setExCount1', 1);
+        localStorage.setItem('setExCount2', 1);
+    </script>
+
+    <div id="canvas"></div>
+    <script src="js/p5.min.js"></script>
+    <script src="js/sketch.js"></script>
+</body>
+</html>
