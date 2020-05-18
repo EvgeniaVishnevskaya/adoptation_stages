@@ -15,7 +15,7 @@ let progress = STEP;
 
 // Инициализируем библиотеку с анимацией круга
 let circle = new ProgressBar.Circle('#bar', {
-    color: 'rgb(255 0 0)',
+    color: 'rgb(0 0 0)',
     trailColor: 'rgb(255 255 255 0)',
     strokeWidth: 50,
     duration: 1000,
